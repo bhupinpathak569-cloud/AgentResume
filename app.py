@@ -48,14 +48,14 @@ options = ["Delhi", "Mumbai",
            "Gurugram/Gurgaon"]
 
 location = st.sidebar.multiselect("Select Location",
-                                  options=options)
+                                  options = options)
 
 profile_op = ["Data Analysts", "AI Engineer",
               "Gen AI Developer", "Full-Stack Dev",
               "Data Scientist"]
 
 profile = st.sidebar.multiselect("Select Job Profile",
-                                 options=profile_op)
+                                 options = profile_op)
 
 print("done")
 model = ChatGoogleGenerativeAI(
