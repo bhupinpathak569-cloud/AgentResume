@@ -27,7 +27,7 @@ st.sidebar.image("bg.png")
 
 google_api_key = "st.sidebar.text_input("Gemini-api",type = "password")
 groq_api_key = "st.sidebar.text_input("Groq-api",type = "password")
-tavily_api_key = "st.sidebar.text_input("Tavily-api,type = "password")
+tavily_api_key = "st.sidebar.text_input("Tavily-api",type = "password")
 print("done")
 model = ChatGoogleGenerativeAI(
     model = 'gemini-3.5-flash-lite',
